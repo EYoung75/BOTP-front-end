@@ -1,19 +1,22 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const Login = () => {
+const Login = (props) => {
+
+
+
     return (
-        <div>
-            <h1 className="welcome">Welcome to Bank of the People</h1>
+        <div className="welcome">
+            <h1 >Welcome to Bank of the People</h1>
             <div class="card text-center loginContainer">
                 <div class="card-header login-header">
                     Login
                 </div>
                 <form class="loginForm">
                     <label>User:</label>
-                    <input name="user" type="text" placeholder="Enter Username"></input>
+                    <input name="user" placeholder="Enter Username" onChange={props.handleInput}></input>
                     <label>Password:</label>
-                    <input name="password" type="password" placeholder="Password"></input>
+                    <input name="password" type="password" placeholder="Password" onChange={props.handleInput}></input>
                     <Link to="/account"><button type="button" class="btn btn-success lButton">Login</button></Link>
                 </form>
                 <p>Don't have an Account?</p>
