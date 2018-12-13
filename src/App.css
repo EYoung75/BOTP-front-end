@@ -3,6 +3,7 @@
   justify-content: center;
   background-color: #557B94;
   height: 100vh;
+  font-family: 'EB Garamond', serif;
 }
 
 .loginForm {
@@ -19,15 +20,15 @@
 .loginContainer {
   width: 50vw;
   height: 100em;
-  margin-top: 30vh;
+  margin-top: 10vh;
   height: 50vh;
   display: flex;
   align-items: center;
 }
 
 .lButton {
-   margin-top: 1rem;
-   margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .login-header {
@@ -59,7 +60,8 @@
 }
 
 .welcome {
-  position: relative;
-  left: 15%;
-  top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
 }
