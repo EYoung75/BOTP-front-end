@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Enroll from "./components/enroll.jsx";
-import Navbar from "./components/navbar.jsx";
+import Login from "./components/login.jsx";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <Login />
       </div>
     );
   }

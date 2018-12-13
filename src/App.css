@@ -1,3 +1,29 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 50%;
+}
+
+.loginContainer {
+  width: 50vw;
+  height: 100em;
+  margin-top: 30vh;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.lButton {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+.login-header {
+  width: 100%;
 }

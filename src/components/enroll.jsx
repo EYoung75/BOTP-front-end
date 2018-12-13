@@ -2,7 +2,7 @@ import React from "react"
 
 const Enroll = () => {
     return (
-        <div>
+        <div className="enroll">
             
         </div>
 
