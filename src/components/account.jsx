@@ -7,7 +7,7 @@ const Account = () => {
             <Navbar/>
             <div className="summary container">
                 <h1>Accounts:</h1>
-                <h3>Checking: $10,000,000.00</h3>
+                <h3>Checking: $10,000,000.01</h3>
                 <h3>Savings: $0.29</h3>
                 <h3>Credit: $675.00</h3>
                 <button className="accountButton">Create new account:</button>
